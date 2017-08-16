@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>components</title>
+    <link rel="stylesheet" href="../../../css/globalCss/bootstrap.min.css">
+    <script src='../../../js/globalJS/jquery-3.2.1.min.js'></script>
+    <script src='../../../js/globalJS/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="../../../css/wuhao/css/component.css">
+</head>
+
+<body>
+    <!-- 这是二级页面标签，横向 -->
+    <div class='navTabs' style='width:600px;height:600px;border:1px solid #000;margin:10px auto;'>
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#" style='color:red;'>Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+        </ul>
+    </div>
+    <!-- 这是二级页面标签，纵向 -->
+    <div class='navPills' style='width:600px;height:150px;border:1px solid #000;margin:10px auto;'>
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+        </ul>
+    </div>
+    <!-- 下拉菜单 -->
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+    <span class="dropDown"> <a class="dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">点击菜单</a>
+	<ul class="dropDown-menu menu radius box-shadow">
+		<li><a href="#">菜单一</a></li>
+		<li><a href="#">菜单二</a></li>
+	</ul>
+</span>
+
+
+    <div style='width:1.5rem;height:1rem;border:1px solid black;'></div>
+
+    <script src='../../../js/wuhao/component.js'>
+    </script>
+</body>
+
+</html>
