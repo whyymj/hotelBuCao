@@ -10,6 +10,8 @@
     <script src='../../../js/globalJS/jquery-3.2.1.min.js'></script>
     <script src='../../../js/globalJS/bootstrap.min.js'></script>
     <link rel="stylesheet" href="../../../css/wuhao/css/component.css">
+    <script src='../../../js/globalJS/vue.min.js'>
+    </script>
 </head>
 
 <body>
@@ -48,7 +50,28 @@
 	<ul class="dropDown-menu menu radius box-shadow">
 		<li><a href="#">菜单一</a></li>
 		<li><a href="#">菜单二</a></li>
-	</ul>
+    </ul>
+    
+
+<div id='www'>
+<www></www>
+</div>
+
+    <template id='vue'>
+        <div>
+            wwww
+        </div>
+    </template>
+    <script>
+        var component=Vue.component('www',{
+template:'#vue'
+        });
+        new Vue({
+         el:'#www',
+         component:component
+           
+        });
+        </script>
 </span>
 
 
