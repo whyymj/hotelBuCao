@@ -1,0 +1,56 @@
+/**初始化元素**/
+
+div,
+a,
+p,
+i,
+body,
+html,
+img,
+span,
+ul,
+li,
+table,
+tr,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+label,
+select,
+option {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+/**清除浮动
+*/
+
+.clear:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+
+/**左浮动*/
+
+.left {
+    float: left;
+}
+
+
+/**右浮动*/
+
+.right {
+    float: right
+}
